@@ -19,7 +19,6 @@ A post-processor of tcpdump output to analyze sniffed DHCP packets.
 %description -l pl
 Postprocesor wyj¶cia tcpdumpa do analizy przechwyconych pakietów DHCP.
 
-
 %prep
 %setup -q
 rm -f dhcpdump.1
