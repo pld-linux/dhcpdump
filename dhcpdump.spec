@@ -1,5 +1,5 @@
 Summary:	Parse tcpdump DHCP packets
-Summary(pl):	Analiza pakietÛw DHCP z tcpdumpa
+Summary(pl.UTF-8):   Analiza pakiet√≥w DHCP z tcpdumpa
 Name:		dhcpdump
 Version:	1.7
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A post-processor of tcpdump output to analyze sniffed DHCP packets.
 
-%description -l pl
-Postprocesor wyj∂cia tcpdumpa do analizy przechwyconych pakietÛw DHCP.
+%description -l pl.UTF-8
+Postprocesor wyj≈õcia tcpdumpa do analizy przechwyconych pakiet√≥w DHCP.
 
 %prep
 %setup -q
