@@ -1,5 +1,5 @@
 Summary:	Parse tcpdump DHCP packets
-Summary(pl.UTF-8):   Analiza pakietów DHCP z tcpdumpa
+Summary(pl.UTF-8):	Analiza pakietów DHCP z tcpdumpa
 Name:		dhcpdump
 Version:	1.7
 Release:	1
