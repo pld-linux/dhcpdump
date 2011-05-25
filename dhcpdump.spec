@@ -1,15 +1,13 @@
 Summary:	Parse tcpdump DHCP packets
 Summary(pl.UTF-8):	Analiza pakietów DHCP z tcpdumpa
 Name:		dhcpdump
-Version:	1.7
+Version:	1.8
 Release:	1
 License:	Free (See LICENSE)
 Group:		Applications
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	c606c20b2d6a875efce9eed0c6109061
+# Source0-md5:	099c786997c424f196414f9575f1fb90
 URL:		http://sf.net/projects/mavetju/
-BuildRequires:	autoconf
-BuildRequires:	automake
 BuildRequires:	perl-tools-pod
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,11 +22,6 @@ Postprocesor wyjścia tcpdumpa do analizy przechwyconych pakietów DHCP.
 rm -f dhcpdump.1
 
 %build
-%{__aclocal}
-%{__autoconf}
-%{__autoheader}
-%{__automake}
-%configure
 %{__make}
 
 %install
